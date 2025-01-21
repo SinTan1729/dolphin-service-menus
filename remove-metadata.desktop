@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+Actions=removeMetadata
+
+[Desktop Action removeMetadata]
+Name=Remove Metadata
+Icon=clear_left
+Exec=exiftool -all= %U
+

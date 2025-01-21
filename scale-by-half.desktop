@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+Actions=scaleByHalf
+
+[Desktop Action scaleByHalf]
+Name=Scale by Half
+Icon=arrow-down-double
+Exec=magick "%u" -resize 50% -set filename:half "%t_half.%e" "%[filename:half]"
+

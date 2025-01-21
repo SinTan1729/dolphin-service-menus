@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+Actions=convertToJpg
+
+[Desktop Action convertToJpg]
+Name=Convert to JPG
+Icon=convert
+Exec=magick "%u" -set filename:base "%[basename]" "%[filename:base].jpg"
+
