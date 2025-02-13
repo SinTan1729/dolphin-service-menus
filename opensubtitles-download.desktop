@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Service
-MimeType=video/mp4;video/mkv
+MimeType=video/mp4;video/x-matroska
 Actions=openSubtitlesDownload
 
 [Desktop Action openSubtitlesDownload]
