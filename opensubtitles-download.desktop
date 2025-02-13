@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=video/mp4;video/mkv
+Actions=openSubtitlesDownload
+
+[Desktop Action openSubtitlesDownload]
+Name=Download Subtitles
+Icon=download
+Exec=/home/sintan/.local/bin/OpenSubtitlesDownload.py --gui=kde %U
+
