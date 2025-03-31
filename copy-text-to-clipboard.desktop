@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=text/*;
+Actions=copyTextToClipboard
+
+[Desktop Action copyTextToClipboard]
+Name=Copy Text to Clipboard
+Icon=entry-clone
+Exec=cat "%u" | wl-copy
+
