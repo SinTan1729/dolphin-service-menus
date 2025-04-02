@@ -2,9 +2,10 @@
 Type=Service
 MimeType=text/*;
 Actions=copyTextToClipboard
+X-KDE-MaxNumberOfUrls=1
 
 [Desktop Action copyTextToClipboard]
 Name=Copy Text to Clipboard
 Icon=entry-clone
-Exec=cat "%u" | wl-copy
+Exec=wl-copy < "%u"
 
