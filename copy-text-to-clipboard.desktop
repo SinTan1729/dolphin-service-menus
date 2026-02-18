@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Service
-MimeType=text/*;
+MimeType=text/*;application/*;
 Actions=copyTextToClipboard
 X-KDE-MaxNumberOfUrls=1
 
