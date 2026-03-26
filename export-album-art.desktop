@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=audio/flac;audio/ogg;
+Actions=exportAlbumArt
+
+[Desktop Action exportAlbumArt]
+Name=Export Album Art
+Icon=image
+Exec=sh -c 'for f in "$@"; do base=$(basename "$f"); ffmpeg -i "$f" -map 0:v -c copy "/home/$USER/Downloads/${base%.*}-albumart.jpg"; done' _ %F
+
