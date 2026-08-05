@@ -1,4 +1,4 @@
-![Number of items](https://img.shields.io/badge/number_of_items-7-blue)
+![Number of items](https://img.shields.io/badge/number_of_items-8-blue)
 
 ## Dolphin Service Menus
 

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+MimeType=text/*;
+Actions=touchFile
+X-KDE-MaxNumberOfUrls=1
+
+[Desktop Action touchFile]
+Name=Touch file
+Icon=entry-edit
+Exec=touch "%u"
+
